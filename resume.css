@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    color: #364b85;
+}
+
+.side-content {
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profile-picture {
+    display: block;
+    height: 26%;
+    width: 46%;
+    margin-left: 28%;
+    margin-top: 14%;
+    margin-bottom: 5%;
+}
+
+.main-content {
+    display: inline-block;
+    margin-left: 2%;
+    width: 60%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 37px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 86%;
+
+}
+
+.designation {
+    margin-top: 3%;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    color: #4e65a3;
+}
+
+.contents {
+    display: block;
+    font-weight: bold;
+    height: 60%;
+    margin: 8.9% 14.5%;
+    color: #364b85;
+}
+
+.info {
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.location-container, .full-time-container, .marketing-container, .email-container {
+    padding: 5% 0%;
+}
+
+.content-icon {
+    display: inline-block;
+    width: 10%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    width: 48%;
+    margin: 6% 15%;
+    padding: 3.5% 2%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: small;
+    background-color: #006FFF;
+    color: white;
+}
+
+.title {
+    margin-top: 8%;
+    font-size: 35.5px;
+    font-weight: bold;
+}
+
+.full-time {
+    display: inline-block;
+    padding: 0.5% 2.4%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 39%;
+    background-color: #C7FAC7;
+    border-radius: 15px;
+}
+
+.summary {
+    margin-top: 4%;
+    margin-bottom: 8%;
+    line-height: 140%;
+    font-size: 16.5px;
+    font-weight: 548;
+}
+
+.experience-sub-header, .education-sub-header {
+    display: inline-block;
+    width: 46%;
+    height: 8%;
+    font-size: 23px;
+    padding-bottom: 1%;
+}
+
+.experience-container, .education-container {
+    margin-top: 3%;
+    width: 92%;
+    padding-bottom: 5%;
+}
+
+.education-sub-header {
+    width: 100%;
+}
+
+.location-container, .full-time-container, .email-container, .experience-container, .education-container {
+    border-bottom: 1px solid rgb(229, 226, 226);
+}
+
+.worked-on, .location, .date {
+    display: inline-block;
+    width: 20.3%;
+}
+
+.experience-info, .content-icon, .education-info {
+    color: rgb(182, 180, 180);
+    font-size: 12.5px;
+}
+
+.institute, .institute-date {
+    display: inline-block;
+    width: 42%;
+}
+
+.experience-icon {
+    padding-right: 5%;
+}
+
+.institute-icon {
+    padding-right: 3%;
+}
+
+.date, .institute-date {
+    width: 57.4%;
+    text-align: right;
+}
+
+.date i, .institute-date i {
+    padding-right: 2%;
+}
