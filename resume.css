@@ -5,13 +5,13 @@
 
 body {
     color: #364b85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .side-content {
     display: inline-block;
     height: 100%;
     width: 33%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .profile-picture {
@@ -28,7 +28,6 @@ body {
     margin-left: 2%;
     width: 60%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     vertical-align: top;
 }
 
@@ -107,10 +106,11 @@ button {
 }
 
 .summary {
+    width: 92.5%;
     margin-top: 4%;
     margin-bottom: 8%;
     line-height: 140%;
-    font-size: 16.5px;
+    font-size: 18px;
     font-weight: 548;
 }
 
@@ -136,6 +136,11 @@ button {
     border-bottom: 1px solid rgb(229, 226, 226);
 }
 
+.education-container:last-child {
+    border: none;
+    margin-bottom: 10%;
+}
+
 .worked-on, .location, .date {
     display: inline-block;
     width: 20.3%;
@@ -143,7 +148,7 @@ button {
 
 .experience-info, .content-icon, .education-info {
     color: rgb(182, 180, 180);
-    font-size: 12.5px;
+    font-size: 13.5px;
 }
 
 .institute, .institute-date {
